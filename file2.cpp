@@ -18,4 +18,15 @@ int main(){
         x = rand() % 10;
         perulanganWhile++;
     }
+    cout << "Nilai akhir x = " << x << endl;
+    cout << "Jumlah Perulangan" << perulanganWhile << endl;
+    cout << endl;
+    cout << "perulangan dengan dowhile" << endl;
+    do{
+        cout << "nilai x = " << x << "lari keliling lapangan" << endl;
+        x = rand() % 10;
+        perulanganDoWhile++;
+    }while(x < 7);
+    cout << "Nilai akhir x = " << x << endl;
+    cout << "Jumlah perulangan = " << perulanganDoWhile << endl;
 }
