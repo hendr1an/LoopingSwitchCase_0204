@@ -7,7 +7,15 @@ int main(){
     for(cacah = 0; cacah <= 4; cacah++){
         cout << "NIlai Pencacah = " << cacah << "Selamat Datang!" << endl;
     }
-    cout << "NIlai Pencacah Terakhir = " << endl;
+    cout << "NIlai Pencacah Terakhir = " << cacah << endl;
+    cout << endl;
+    cout << endl;
+
+    //perulanagan fot untuk pencacah turun increase
+    for(cacah = 5; cacah > 0; cacah--){
+        cout << "NIlai Pencacah = " << cacah << "Selamat Datang!" << endl;
+    }
+    cout << "NIlai Pencacah Terakhir = " << cacah << endl;
     cout << endl;
     cout << endl;
     
